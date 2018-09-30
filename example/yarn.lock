@@ -6808,6 +6808,14 @@ table@^4.0.1:
     slice-ansi "1.0.0"
     string-width "^2.1.1"
 
+tabler-react@^1.19.1:
+  version "1.19.1"
+  resolved "https://registry.yarnpkg.com/tabler-react/-/tabler-react-1.19.1.tgz#60733b7d546fad9a1462ce7008fe81a19575848a"
+  dependencies:
+    classnames "^2.2.5"
+    react-popper "^1.0.0-beta.6"
+    react-text-mask "^5.4.1"
+
 "tabler-react@link:..":
   version "0.0.0"
   uid ""

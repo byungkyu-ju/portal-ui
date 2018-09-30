@@ -14,13 +14,14 @@ import {
   Error503,
   Empty,
   Email,
-  ProfilePage,
 } from "./pages";
 
 import HomePage from "./HomePage.react";
 import FormElementsPage from "./FormElementsPage.react";
 import PricingCardsPage from "./interface/PricingCardsPage.react";
 import CardsDesignPage from "./interface/CardsDesignPage.react";
+import CrawlingNewsPage from "./components/CrawlingNewsPage.react";
+import ProfilePage from "./interface/ProfilePage.react";
 import StoreCardsPage from "./components/StoreCardsPage.react.js";
 import IconPage from "./components/IconPage.react.js";
 import ChartsPage from "./interface/ChartsPage.react";
@@ -99,6 +100,8 @@ function App(props: Props): React.Node {
         <Route exact path="/profile" component={ProfilePage} />
         <Route exact path="/register" component={RegisterPage} />
         <Route exact path="/store" component={StoreCardsPage} />
+        <Route exact path="/crawlingNews" component={CrawlingNewsPage} />
+        <Route exact path="/Profile" component={ProfilePage} />
         <Route component={Error404} />
       </Switch>
     </Router>

@@ -45,8 +45,8 @@ For more examples and documentation see the [demo website](https://tabler.github
 
 The package is made up of 2 main folders:
 
-* /src contains all the Tabler React components
-* /example is our [create-react-app](https://github.com/facebook/create-react-app/) based demo website
+- /src contains all the Tabler React components
+- /example is our [create-react-app](https://github.com/facebook/create-react-app/) based demo website
 
 To setup and run a local copy:
 

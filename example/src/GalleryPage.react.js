@@ -22,41 +22,7 @@ function GalleryPage(): React.Node {
   );
   return (
     <SiteWrapper>
-      <Page.Content>
-        <Page.Header
-          title="Gallery"
-          subTitle="1 - 12 of 1713 photos"
-          options={options}
-        />
-
-        <Grid.Row className="row-cards">
-          {json.items.map((item, key) => (
-            <Grid.Col sm={6} lg={4} key={key}>
-              <GalleryCard>
-                <GalleryCard.Image
-                  src={item.imageURL}
-                  alt={`Photo by ${item.fullName}`}
-                />
-                <GalleryCard.Footer>
-                  <GalleryCard.Details
-                    avatarURL={item.avatarURL}
-                    fullName={item.fullName}
-                    dateString={item.dateString}
-                  />
-                  <GalleryCard.IconGroup>
-                    <GalleryCard.IconItem name="eye" label={item.totalView} />
-                    <GalleryCard.IconItem
-                      name="heart"
-                      label={item.totalLike}
-                      right
-                    />
-                  </GalleryCard.IconGroup>
-                </GalleryCard.Footer>
-              </GalleryCard>
-            </Grid.Col>
-          ))}
-        </Grid.Row>
-      </Page.Content>
+      <Page.Content />
     </SiteWrapper>
   );
 }
